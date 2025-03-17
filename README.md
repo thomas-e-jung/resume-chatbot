@@ -11,9 +11,10 @@ Resume Chatbot is a Python-based implementation of **Retrieval-Augmented Generat
 - **Customizable LLMs**: Uses HuggingFace embeddings and pipelines for text processing and generation.
 - **Optimization**: Utilizes GPUs and 4-bit quantization for enhanced performance.
 
-## Models Used
-- **Embedding Model**: [thenlper/gte-small](https://huggingface.co/thenlper/gte-small)
-- **Reader Model**: [HuggingFaceH4/zephyr-7b-beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)
+## Components
+- **Embeddings Model**: [thenlper/gte-small](https://huggingface.co/thenlper/gte-small)
+- **Chat Model**: [HuggingFaceH4/zephyr-7b-beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)
+- **Vector Store**: [Faiss](https://github.com/facebookresearch/faiss)
 
 ## Dependencies
 To run in Google Colab, ensure the following packages are installed:
