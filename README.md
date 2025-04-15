@@ -1,3 +1,5 @@
+## There is a known [GitHub issue](https://github.com/orgs/community/discussions/155944) where Jupyter notebooks fail to render in the browser from time to time. If this happens, please [open in Colab](https://colab.research.google.com/github/thomas-e-jung/resume-chatbot/blob/main/resume_chatbot.ipynb).
+
 # Resume Chatbot
 
 Author: Thomas Jung
